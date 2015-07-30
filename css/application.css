@@ -1,0 +1,175 @@
+body {
+	font-family: Futura, "Trebuchet MS", sans-serif;
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.nav {
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.nav p {
+	color: white;
+}
+/* Header Content */
+
+.main-header {
+	background-color: green;
+}
+
+.header-container {
+	background-image: url('../img/lawn.jpg');
+	height: 450px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.intro {
+	color: white;
+}
+
+.pitch {
+	color: lightblue;
+}
+
+.quote {
+	background-color: white;
+	color: black;
+
+}
+
+/* Steps section */
+
+.steps {
+	text-align: center;
+	border-bottom: 1px solid grey;
+	align-items: center;
+}
+
+.step1,
+.step2,
+.step3 {
+	max-width:200px;
+	padding-left: 40px;
+}
+
+
+.grey {
+	color: grey;
+}
+
+.green {
+	color: green;
+}
+
+/* Icons */
+
+.fa-laptop,
+.fa-calendar-o,
+.fa-star {
+	color: blue;
+}
+
+/* Testimonials */
+
+.testimonials {
+	text-align: center;
+	z-index: 1;
+}
+
+.fa-quote-left {
+	position : absolute;
+	z-index : -1;
+	color: grey;
+}
+
+.past_performance {
+	color: grey;
+}
+
+img {
+	background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.round-pic {
+	border-radius: 50%;
+}
+
+.img-arrows {
+	display: flex;
+  flex-direction: row;
+	justify-content: space-between;
+}
+
+.names {
+	display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+/* Toggles */
+.toggles {
+	display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.scope {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+.faq {
+	border-bottom: 1px solid grey;
+}
+
+
+/* Media Queries */
+
+@media all and (min-width: 640px) {
+  .header-container, .nav {
+    flex-direction: row;
+  }
+}
+
+@media all and (min-width: 1030px) {
+  .nav {
+    flex: none;
+  }
+
+  .header-container,
+  .steps {
+  	display: flex;
+  	flex-direction: row;
+  }	
+
+   .header-container article {
+   	float: left;
+  	width: 57%;
+  }
+
+  .header-container aside {
+  	float: right;
+    width: 28%;
+  }
+
+  .steps {
+  		justify-content: space-between;
+  		padding: 65px;
+  	}
+
+}
+
