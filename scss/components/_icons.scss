@@ -6,7 +6,21 @@
 	color: $blue;
 }
 
+.fa-quote-left {
+	@function tint($color, $percentage) {
+  		@return mix($color, $white, $percentage);
+	}	
+	color: tint($grey, 30%);
+	position : absolute;
+	display: flex;
+	justify-content: space-around;
+	z-index : -1;
+}
+
 .fa-angle-left,
 .fa-angle-right {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
 	color: $grey;
 }

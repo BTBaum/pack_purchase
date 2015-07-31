@@ -1,20 +1,32 @@
 /* Testimonials */
-
 .testimonials {
-	@extends %centered;
-	z-index: 1;
-
-	.fa-quote-left {
-		position : absolute;
-		z-index : -1;
-		color: $grey;
-	}
+		padding-top: 25px;
 }
 
-
-
 .past_performance {
-	color: $grey;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	z-index: 1;
+	text-align: center;
+	color: $grey;	
+}
+
+.saying {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	z-index: 1;
+	text-align: center;
+	color: $black;	
+}
+
+.comment {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	text-align: center;
+	color: $black;	
 }
 
 img {
@@ -23,10 +35,6 @@ img {
   border-radius: 50%;
   height: 100px;
   width: 100px;
-}
-
-li {
-	list-style: none;
 }
 
 .round-pic {
@@ -43,4 +51,16 @@ li {
 	display: flex;
   flex-direction: column;
   margin: 0;
+}
+
+.name, .city {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	text-align: center;
+	color: $black;	
+}
+
+.city {
+	color: $grey;
 }
