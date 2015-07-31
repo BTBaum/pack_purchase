@@ -1,6 +1,17 @@
 /* Testimonials */
 .testimonials {
-		padding-top: 25px;
+	z-index: 1;
+	padding-top: 25px;
+}
+
+.double-quote {
+	z-index: -1;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	text-align: center;
+	padding-top: 25px;
+
 }
 
 .past_performance {
