@@ -1,175 +1,163 @@
+/* Global imports */
 body {
-	font-family: Futura, "Trebuchet MS", sans-serif;
-}
+  font-family: Futura, "Trebuchet MS", sans-serif; }
 
+/* for the text field on free quote div */
 /* Nav */
 .nav {
   display: flex;
-  flex-direction: row;
-}
+  flex-direction: row; }
 
 .header {
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .nav {
   flex-grow: 1;
-  justify-content: space-around;
-}
+  justify-content: space-around; }
 
 .nav p {
-	color: white;
-}
-/* Header Content */
+  color: #FFF; }
 
+/* Header Content */
 .main-header {
-	background-color: green;
-}
+  background-color: #198E19; }
 
 .header-container {
-	background-image: url('../img/lawn.jpg');
-	height: 450px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
+  background-image: url("../img/lawn.jpg");
+  height: 450px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 .intro {
-	color: white;
-}
+  color: #FFF; }
 
 .pitch {
-	color: lightblue;
-}
+  color: #00CCFF; }
 
 .quote {
-	background-color: white;
-	color: black;
-
-}
+  background-color: #FFF;
+  color: #373737; }
 
 /* Steps section */
-
 .steps {
-	text-align: center;
-	border-bottom: 1px solid grey;
-	align-items: center;
-}
+  border-bottom: 1px solid #B7C2CC;
+  align-items: center; }
 
 .step1,
 .step2,
 .step3 {
-	max-width:200px;
-	padding-left: 40px;
-}
-
+  max-width: 200px;
+  padding-left: 40px; }
 
 .grey {
-	color: grey;
-}
+  color: #B7C2CC; }
 
 .green {
-	color: green;
-}
-
-/* Icons */
-
-.fa-laptop,
-.fa-calendar-o,
-.fa-star {
-	color: blue;
-}
+  color: #198E19; }
 
 /* Testimonials */
-
 .testimonials {
-	text-align: center;
-	z-index: 1;
-}
-
-.fa-quote-left {
-	position : absolute;
-	z-index : -1;
-	color: grey;
-}
+  @extends %centered;
+  z-index: 1; }
+  .testimonials .fa-quote-left {
+    position: absolute;
+    z-index: -1;
+    color: #B7C2CC; }
 
 .past_performance {
-	color: grey;
-}
+  color: #B7C2CC; }
 
 img {
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: 50%;
   border-radius: 50%;
   height: 100px;
-  width: 100px;
-}
+  width: 100px; }
+
+li {
+  list-style: none; }
 
 .round-pic {
-	border-radius: 50%;
-}
+  border-radius: 50%; }
 
 .img-arrows {
-	display: flex;
+  display: flex;
   flex-direction: row;
-	justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .names {
-	display: flex;
+  display: flex;
   flex-direction: column;
-  margin: 0;
-}
+  margin: 0; }
 
-/* Toggles */
-.toggles {
-	display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.scope {
-	border-top: 1px solid grey;
-	border-bottom: 1px solid grey;
-}
-
-.faq {
-	border-bottom: 1px solid grey;
-}
-
+.steps {
+  text-align: center; }
 
 /* Media Queries */
-
 @media all and (min-width: 640px) {
   .header-container, .nav {
-    flex-direction: row;
-  }
-}
-
+    flex-direction: row; } }
 @media all and (min-width: 1030px) {
   .nav {
-    flex: none;
-  }
+    flex: none; }
 
   .header-container,
   .steps {
-  	display: flex;
-  	flex-direction: row;
-  }	
+    display: flex;
+    flex-direction: row; }
 
-   .header-container article {
-   	float: left;
-  	width: 57%;
-  }
+  .header-container article {
+    float: left;
+    width: 57%; }
 
   .header-container aside {
-  	float: right;
-    width: 28%;
-  }
+    float: right;
+    width: 28%; }
 
   .steps {
-  		justify-content: space-between;
-  		padding: 65px;
-  	}
+    justify-content: space-between;
+    padding: 65px; } }
+/* Toggles */
+.toggles {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
 
+.scope {
+  border-top: 1px solid #B7C2CC;
+  border-bottom: 1px solid #B7C2CC; }
+
+.faq {
+  border-bottom: 1px solid #B7C2CC; }
+
+/* Icons */
+.fa-laptop,
+.fa-calendar-o,
+.fa-star {
+  color: #00CCFF; }
+
+.fa-angle-left,
+.fa-angle-right {
+  color: #B7C2CC; }
+
+/* Carousel */
+.carousel {
+  position: relative; }
+
+/*.carousel {
+  height: 130px;
+}
+.carousel li {
+  position: absolute;
+  top: 200px;
+}
+.carousel li.current {
+  top: 30px;
 }
 
+.offscreen {
+  position: absolute;
+  left: -2000px;
+}*/
+
+/*# sourceMappingURL=application.css.map */

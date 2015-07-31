@@ -2,10 +2,8 @@
 <html>
 <head>
 	<title>Pack Purchase</title>
-	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'> -->
 	<link rel="stylesheet" href="css/font-awesome.MIN.css">
 	<link rel="stylesheet" href="css/application.css">
-	<script type="text/javascript" src="js/functions.js"></script>
 	<meta name="viewport" content="width=device-width">
 </head>
 	<body>
@@ -60,41 +58,65 @@
 		</section>
 
 		<!-- Customer testimonials -->
-		<i class="fa fa-angle-left"></i>
-		<i class="fa fa-angle-right"></i>
-
 		<div class="testimonials">
 			<i class="fa fa-quote-left fa-5x"></i>
 			<div class="double-quotes">
 				<p class="past_performance">The Pack Purchase team has been proudly serving thousands of customers with their home maintenance needs since 2005.</p>
 				<p>See what our customers are saying about us:</p>
 			</div>
-			<div id="carousel">
-				<!-- Written top testimony -->
-				<div class="testimony-1">
-					<p>At est rebum movet verterem, pri regione voluptua no. No vix affert populo intellegat, vis ei prompta pertinax postulant, mel salutatus scribentur disputando cu. </p>
-				</div>
-				<!-- Image of customer associated to testimony -->
-				<div class="img-arrows">
-					<div>
-						<i class="fa fa-angle-left fa-5x"></i>
-					</div>
-					<div>
-						<img class="round-pic" src="img/pic1.jpg">
-					</div>
-					<div>
-						<i class="fa fa-angle-right fa-5x"></i>
-					</div>
-				</div>
-				<div class="names">
-					<p>Edgar Poe</p>
-					<p>Raleigh, NC</p>
-				</div>
 
-				<!-- <div class="testimony-2">
-					<p>Utroque instructior nam ei. Tempor mucius iudicabit no usu. Nam ei epicurei quaestio, ad consulatu intellegat pri, per vero mazim laudem ut. Ut graece euripidis cum, ad has falli habemus civibus.</p>
-				</div>
-				<div class="testimony-3">
+
+			<div class="carousel">
+				<!-- Written top testimony -->
+				<ul class="content">
+					<li id="one">
+						<div class="testimony-1">
+							<p>At est rebum movet verterem, pri regione voluptua no. No vix affert populo intellegat, vis ei prompta pertinax postulant, mel salutatus scribentur disputando cu. </p>
+						</div>
+						<!-- Image of customer associated to testimony -->
+						<div class="img-arrows">
+							<div onclick="prev" class="prev">
+								<i class="fa fa-angle-left fa-5x"></i>
+								<span class="offscreen"></span>
+							</div>
+							<div>
+								<img class="round-pic" src="img/pic1.jpg">
+							</div>
+							<div onclick="next" class="next">
+								<i class="fa fa-angle-right fa-5x"></i>
+								<span class="offscreen"></span>
+							</div>
+						</div>
+						<div class="names">
+							<p>Edgar Poe</p>
+							<p>Raleigh, NC</p>
+						</div>
+					</li>
+
+					<!-- <li id="two">
+						<div class="testimony-2">
+							<p>Utroque instructior nam ei. Tempor mucius iudicabit no usu. Nam ei epicurei quaestio, ad consulatu intellegat pri, per vero mazim laudem ut. Ut graece euripidis cum, ad has falli habemus civibus.</p>
+						</div> -->
+						<!-- Image of customer associated to testimony -->
+						<!-- <div class="img-arrows">
+							<div>
+								<i class="fa fa-angle-left fa-5x"></i>
+							</div>
+							<div>
+								<img class="round-pic" src="img/pic2.jpg">
+							</div>
+							<div>
+								<i class="fa fa-angle-right fa-5x"></i>
+							</div>
+						</div>
+						<div class="names">
+							<p>Frank Bob</p>
+							<p>Raleigh, NC</p>
+						</div>
+					</li>
+				</ul> -->
+				
+				<!-- <div class="testimony-3">
 					<p>Ex sea cibo veniam graecis, quo ad tibique minimum definiebas, rebum clita munere id quo. Sale consul et eum, sed detracto similique no.</p>
 				</div> -->
 			</div>
@@ -103,18 +125,24 @@
 		<div class="toggles">
 			<!-- Scope of work -->
 			<div class="scope">
-				<p id="scope"><i class="fa fa-caret-right"></i>  Scope of Work</p>
+				<p id="toggle" onclick="toggle"><i class="fa fa-caret-right"></i>  Scope of Work</p>
 				<div id="scope-info">
-					<p>At est rebum movet verterem, pri regione voluptua no. No vix affert populo intellegat, vis ei prompta pertinax postulant, mel salutatus scribentur disputando cu. </p>
+					<p>At est rebum movet verterem, pri regione voluptua no. No vix affert populo intellegat, vis ei prompta pertinax postulant, mel salutatus scribentur disputando cu.</p>
 				</div>
 			</div>
 
 			<!-- FAQ's -->
 			<div class="faq">
-				<p><i class="fa fa-caret-right"></i>  Frequently Asked Questions</p>
+				<p id="toggle2" onclick="toggle"><i class="fa fa-caret-right"></i>  Frequently Asked Questions</p>
+				<div id="faq-info">
+					<p>At est rebum movet verterem, pri regione voluptua no. No vix affert populo intellegat, vis ei prompta pertinax postulant, mel salutatus scribentur disputando cu.</p>
+				</div>
 			</div>
 		</div>
 	</body>
+
+	<script src="js/functions.js" type="text/javascript"></script>
+
 </html>
 
 

@@ -1,0 +1,23 @@
+/* Steps section */
+
+.steps {
+	@extend %centered;
+	border-bottom: 1px solid $grey;
+	align-items: center;
+}
+
+.step1,
+.step2,
+.step3 {
+	max-width:200px;
+	padding-left: 40px;
+}
+
+.grey {
+	color: $grey;
+}
+
+.green {
+	color: $green;
+}
+

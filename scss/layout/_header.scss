@@ -1,0 +1,44 @@
+/* Nav */
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.nav {
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.nav p {
+	color: $white;
+}
+/* Header Content */
+
+.main-header {
+	background-color: $green;
+}
+
+.header-container {
+	background-image: url('../img/lawn.jpg');
+	height: 450px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.intro {
+	color: $white;
+}
+
+.pitch {
+	color: $blue;
+}
+
+.quote {
+	background-color: $white;
+	color: $black;
+
+}

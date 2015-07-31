@@ -1,0 +1,31 @@
+// Color Values
+
+$white			: #FFF;
+$green			: #198E19;
+$blue				: #00CCFF;
+$black			: #373737;
+$grey  			: #B7C2CC;
+$white-blue	: #E2F2F2; /* for the text field on free quote div */
+
+// Functional color variables
+
+$color-body: $white;
+
+// Font stack
+
+$stack-sans-serif : Helvetica, Arial, sans-serif;
+$stack-helvetica  : 'Helvetica Neue', $stack-sans-serif;
+$stack-abolition  : 'Abolition Regular', $stack-sans-serif;
+
+// Border radius
+
+$br: 10px;
+
+// Asset paths
+
+$path-font : '../fonts';
+
+// Media breakpoints
+$brk-narrow : '(max-width: 750px)';
+$brk-wide   : '(max-width: 1024px)';
+

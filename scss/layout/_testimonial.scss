@@ -1,0 +1,46 @@
+/* Testimonials */
+
+.testimonials {
+	@extends %centered;
+	z-index: 1;
+
+	.fa-quote-left {
+		position : absolute;
+		z-index : -1;
+		color: $grey;
+	}
+}
+
+
+
+.past_performance {
+	color: $grey;
+}
+
+img {
+	background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+li {
+	list-style: none;
+}
+
+.round-pic {
+	border-radius: 50%;
+}
+
+.img-arrows {
+	display: flex;
+  flex-direction: row;
+	justify-content: space-between;
+}
+
+.names {
+	display: flex;
+  flex-direction: column;
+  margin: 0;
+}
