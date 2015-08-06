@@ -1,5 +1,15 @@
 /* Icons */
 
+.phone {
+	@media #{$brk-narrow} {
+		display: none;
+	}
+}
+
+.fa-check {
+	color: $green;
+}
+
 .fa-laptop,
 .fa-calendar-o,
 .fa-star {

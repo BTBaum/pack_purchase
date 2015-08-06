@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Pack Purchase</title>
-	<link rel="stylesheet" href="css/font-awesome.MIN.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/application.css">
 	<meta name="viewport" content="width=device-width">
 </head>
@@ -13,27 +14,36 @@
 			<header>
 				<div class="nav">
 					<p><i class="fa fa-bars"></i>  Menu</p>
-					<p><i class="fa fa-phone"></i>  919.261.1693</p>			
+					<p class="phone"><i class="fa fa-phone"></i>  919.261.1693</p>			
 					<p><i class="fa fa-user-plus"></i>  Share</p>					
 				</div>
 			</header>	
 			
 			<!-- Top banner with lawn mowing background -->
 			<div class="header-container">
-				<article>
-					<section class="intro">
-						<p>Weekly mowing March-October</p>
-						<h2>Lawn Maintenance in Raleigh, NC</h2>
-						<p>Keep your laen looking graet durning the growing season with mowing, edging, string trimming and blowing.</p>
-					</section>
-				</article>
-				<aside class="quote">
-					<h2>Get your lawn mowed "Free Quote"</h2>
-				</aside>
-				<section class="pitch">
-					<p><i class="fa fa-check"></i>We work with top providers in your area</p>
-					<p><i class="fa fa-check"></i>Pricing based on the size of your lawn</p>
-				</section>
+				<div class="intro">
+					<p>Weekly mowing March-October</p>
+					<h2>Lawn Maintenance in Raleigh, NC</h2>
+					<p>Keep your lawn looking great during the growing season with mowing, edging, string trimming and blowing.</p>
+				</div>
+				<div class="quote">
+					<p class="line1">AVAILABLE IN SELECTED NEIGHBORHOODS</p>
+					<p class="line2">Get your lawn mowed</p>
+					<div class="line3">
+						<p>FREE</p>
+					</div>
+					<p class="line4">YOUR ADDRESS</p>
+					<div>
+						<p class="line5">eg. 142 Market Street</p>
+					</div>
+					<div>
+						<p class="line6">CHECK AVAILABILITY</p>
+					</div>
+				</div>
+				<div class="check-list">
+					<p><i class="fa fa-check"></i>  We work with top providers in your area</p>
+					<p><i class="fa fa-check"></i>  Pricing based on the size of your lawn</p>
+				</div>
 			</div>
 		</div>
 
@@ -66,51 +76,53 @@
 				<p class="saying">See what our customers are saying about us:</p>
 		</div>
 
-
-			<div class="carousel">
-				<!-- Written top testimony -->
-				
-			<div class="comment">
-				<p >At est rebum movet verterem, pri regione voluptua no. No vix affert populo intellegat, vis ei prompta pertinax postulant, mel salutatus scribentur disputando cu.</p>
-			</div>
-			<!-- Image of customer associated to testimony -->
-			<div class="img-arrows">
-				<i class="fa fa-angle-left fa-5x"></i>
-				<img class="round-pic" src="img/pic1.jpg">
-				<i class="fa fa-angle-right fa-5x"></i>
-			</div>
-				<p class="name">CeeLo Green</p>
-				<p class="city">Raleigh, NC</p>
-
-
-
-					<!-- <li id="two">
-						<div class="testimony-2">
-							<p>Utroque instructior nam ei. Tempor mucius iudicabit no usu. Nam ei epicurei quaestio, ad consulatu intellegat pri, per vero mazim laudem ut. Ut graece euripidis cum, ad has falli habemus civibus.</p>
-						</div> -->
-						<!-- Image of customer associated to testimony -->
-						<!-- <div class="img-arrows">
-							<div>
-								<i class="fa fa-angle-left fa-5x"></i>
-							</div>
-							<div>
-								<img class="round-pic" src="img/pic2.jpg">
-							</div>
-							<div>
-								<i class="fa fa-angle-right fa-5x"></i>
-							</div>
-						</div>
-						<div class="names">
-							<p>Frank Bob</p>
-							<p>Raleigh, NC</p>
-						</div>
-					</li>
-				</ul> -->
-				
-				<!-- <div class="testimony-3">
-					<p>Ex sea cibo veniam graecis, quo ad tibique minimum definiebas, rebum clita munere id quo. Sale consul et eum, sed detracto similique no.</p>
-				</div> -->
-			</div>
+		<!-- Carousel slides -->
+		<div class="wrap">
+			<input id="slide-1-trigger" type="radio" name="slides" checked>
+				<section class="slide slide-one">
+					<div class="comment">
+						<p >At est rebum movet verterem, pri regione voluptua no. No vix affert populo intellegat, vis ei prompta pertinax postulant, mel salutatus scribentur disputando cu.</p>
+					</div>
+					<div class="img-arrows">
+						<i class="fa fa-angle-left fa-5x"></i>
+						<img class="round-pic" src="img/pic1.jpg">
+						<i class="fa fa-angle-right fa-5x"></i>
+					</div>
+						<p class="name">CeeLo Green</p>
+						<p class="city">Raleigh, NC</p>
+				</section>
+			<input id="slide-2-trigger" type="radio" name="slides">
+				<section class="slide slide-two">
+					<div class="comment">
+						<p>Utroque instructior nam ei. Tempor mucius iudicabit no usu. Nam ei epicurei quaestio, ad consulatu intellegat pri, per vero mazim laudem ut. Ut graece euripidis cum, ad has falli habemus civibus.</p>
+					</div>
+					<div class="img-arrows">
+						<i class="fa fa-angle-left fa-5x"></i>
+						<img class="round-pic" src="img/pic2.jpg">
+						<i class="fa fa-angle-right fa-5x"></i>
+					</div>
+						<p class="name">Eddie M</p>
+						<p class="city">Raleigh, NC</p>
+				</section>
+			<input id="slide-3-trigger" type="radio" name="slides">
+				<section class="slide slide-three">
+					<div class="comment">
+						<p>Utroque instructior nam ei. Tempor mucius iudicabit no usu. Nam ei epicurei quaestio, ad consulatu intellegat pri, per vero mazim laudem ut. Ut graece euripidis cum, ad has falli habemus civibus.</p>
+					</div>
+					<div class="img-arrows">
+						<i class="fa fa-angle-left fa-5x"></i>
+						<img class="round-pic" src="img/pic3.jpg">
+						<i class="fa fa-angle-right fa-5x"></i>
+					</div>
+						<p class="name">Jenn Ann</p>
+						<p class="city">Raleigh, NC</p>
+				</section>
+				<footer>
+					<label for="slide-1-trigger"><label>
+					<label for="slide-2-trigger"><label>
+					<label for="slide-3-trigger"><label>
+				</footer>
+		</div>
 
 		<div class="toggles">
 			<!-- Scope of work -->
