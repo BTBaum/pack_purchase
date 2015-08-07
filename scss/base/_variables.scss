@@ -13,9 +13,9 @@ $color-body: $white;
 
 // Font stack
 
-$stack-sans-serif : Helvetica, Arial, sans-serif;
-$stack-helvetica  : 'Helvetica Neue', $stack-sans-serif;
-$stack-abolition  : 'Abolition Regular', $stack-sans-serif;
+$font-family: 'Oxygen', sans-serif;
+$stack-helvetica  : 'Helvetica Neue', $font-family;
+$stack-abolition  : 'Abolition Regular', $font-family;
 
 // Border radius
 

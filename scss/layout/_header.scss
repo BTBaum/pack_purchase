@@ -9,12 +9,14 @@
 }
 
 .nav {
-  flex-grow: 1;
   justify-content: space-around;
+  max-height: 40px;
 }
 
 .nav p {
 	color: $white;
+	margin-top: 10px;
+/*	padding-top: 0;*/
 }
 /* Header Content */
 
@@ -24,21 +26,67 @@
 
 .header-container {
 	background-image: url('../img/lawn.jpg');
-	height: 450px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+
+	@media #{$brk-narrow} {
+		height: 565px;
+	}
 }
 
 .intro {
 	color: $white;
+	padding: 10px;
+
+	p {
+		font-weight: 300;
+		margin: 0px;
+	}
+
+	h2 {
+		font-weight: 400;
+	}
 }
 
-.pitch {
+.check-list {
 	color: $blue;
-}
-
-.quote {
 	background-color: $white;
-	color: $black;
+	padding: 10px;
+	font-size: small;
+	font-weight: 700;
 
+	/* Slanted corner */
+	width: 280px;
+    height: 120px;
+    padding-left: 90px;
+    margin-left: -90px;
+    overflow: hidden;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

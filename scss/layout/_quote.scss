@@ -1,0 +1,76 @@
+.quote {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background-color: $white;
+	color: $black;
+	width: 80%;
+	height: auto;
+    margin: 0 auto;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+	.line1 {
+		font-size: xx-small;
+		font-weight: 300;
+		color: $grey;
+		margin-bottom: 0px;
+	}
+
+	.line2 {
+		font-size: medium;
+		color: $blue;
+	}
+
+	.line3 {
+		color: $blue;
+		border-style: solid;
+		border-width: 2px;
+		display: center;
+		text-align: center;
+		border-radius: 25px;
+		width: 80px;
+		height: 25px;
+		align-self: center;
+
+		p {
+			margin-top: 5px;
+		}
+	}
+
+	.line4 {
+		font-size: xx-small;
+		color: $grey;
+		text-align: left;	
+		margin-bottom: 0px;
+
+
+	}
+
+	.line5 {
+		border-style: solid;
+		border-width: 1px;
+		border-color: $grey;
+		border-radius: 5px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: $grey;
+		background-color: $white-blue;
+		text-align: left;
+		padding-left: 8px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.line6 {
+		font-size: x-small;
+		border-radius: 5px;
+		padding-top: 12px;
+		padding-bottom: 10px;
+		color: $white;
+		background-color: $green;
+	}
+
+}
