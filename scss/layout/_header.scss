@@ -37,7 +37,7 @@
 .intro {
 	color: $white;
 	padding: 10px;
-	
+
 	p {
 		font-weight: 300;
 		margin: 0px;
@@ -57,18 +57,40 @@
 
 	/* Slanted corner */
 	width: 280px;
-    height: 120px;
-    padding-left: 90px;
-    margin-left: -90px;
-    overflow: hidden;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
+    
+   
+   /*
+   	$pg-bg:             #dcdcdc;
+	$rr-bg:             #232E39;
+	$rr-bg-hover:       darken($rr-bg, 10%);
 
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-    -o-transform: skew(-20deg);
-    transform: skew(-20deg);	
+    $rr-height:         200px;
+	$rr-slant:          100px;
+	$rr-gutter:         1%;
+	$rr-width:          50%;
+	*/
+	position: relative;
+	height: 120px;
+	z-index: 1;
+	float: left;
+	width: 227px + 50px;
 }
+
+	/* Add slant */
+	.check-list:after,
+	.check-list:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		width: 0;
+		height: 0;
+	}
+	
+	.check-list:after {
+		right: 0;
+		border-left: 100px solid $white;
+		border-bottom: 120px solid $green;
+	}
 
 
 
