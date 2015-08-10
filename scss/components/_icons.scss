@@ -1,5 +1,13 @@
 /* Icons */
 
+.fa-bars {
+	padding-left: 10px;
+}
+
+.user-plus {
+	padding-right: 10px;
+}
+
 .phone {
 	@media #{$brk-narrow} {
 		display: none;

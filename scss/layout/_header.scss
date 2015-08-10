@@ -9,7 +9,7 @@
 }
 
 .nav {
-  justify-content: space-around;
+  justify-content: space-between;
   max-height: 40px;
 }
 
@@ -37,7 +37,7 @@
 .intro {
 	color: $white;
 	padding: 10px;
-
+	
 	p {
 		font-weight: 300;
 		margin: 0px;

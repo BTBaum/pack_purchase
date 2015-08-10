@@ -37,7 +37,7 @@ body {
   justify-content: space-between; }
 
 .nav {
-  justify-content: space-around;
+  justify-content: space-between;
   max-height: 40px; }
 
 .nav p {
@@ -179,7 +179,8 @@ body {
   justify-content: space-around;
   flex-direction: row;
   text-align: center;
-  padding-top: 25px; }
+  padding-top: 25px;
+  padding-right: 55px; }
 
 .past_performance {
   display: flex;
@@ -235,6 +236,12 @@ img {
   color: #B7C2CC; }
 
 /* Icons */
+.fa-bars {
+  padding-left: 10px; }
+
+.user-plus {
+  padding-right: 10px; }
+
 @media (max-width: 750px) {
   .phone {
     display: none; } }
@@ -275,22 +282,26 @@ img {
   border-bottom: 1px solid #B7C2CC; }
 
 /* Carousel */
-.wrap {
-  position: relative;
-  overflow: hidden;
-  text-align: center; }
+/*.wrap {
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
 
 footer {
-  cursor: pointer;
-  display: inline-block; }
+	cursor: pointer;
+	display: inline-block;
+
+}
 
 .slide {
-  position: absolute;
-  top: 0;
-  left: 100%;
-  position: absolute;
-  z-index: 10;
-  background-position: 50% 50%;
-  background-size: cover; }
+	position: absolute;
+	top: 0;
+	left: 100%;
+	position: absolute;
+	z-index: 10;
+	background-position: 50% 50%;
+	background-size: cover;
+}*/
 
 /*# sourceMappingURL=application.css.map */
