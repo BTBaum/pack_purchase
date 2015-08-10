@@ -1,6 +1,10 @@
 /* Carousel */
 
+<<<<<<< HEAD
 /*.wrap {
+=======
+.wrap {
+>>>>>>> origin/master
 	position: relative;
 	overflow: hidden;
 	text-align: center;
@@ -10,6 +14,7 @@ footer {
 	cursor: pointer;
 	display: inline-block;
 
+<<<<<<< HEAD
 }
 
 .slide {
@@ -22,3 +27,17 @@ footer {
 	background-size: cover;
 }*/
 
+=======
+}
+
+.slide {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	position: absolute;
+	z-index: 10;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+>>>>>>> origin/master
