@@ -1,0 +1,67 @@
+.check-list {
+	color: $blue;
+	background-color: $white;
+	padding: 10px;
+	font-size: small;
+	font-weight: 700;
+
+	/* Slanted corner */
+	width: 280px;
+    
+   
+   /*
+   	$pg-bg:             #dcdcdc;
+	$rr-bg:             #232E39;
+	$rr-bg-hover:       darken($rr-bg, 10%);
+
+    $rr-height:         200px;
+	$rr-slant:          100px;
+	$rr-gutter:         1%;
+	$rr-width:          50%;
+	*/
+	position: relative;
+	height: 90px;
+	z-index: 1;
+	float: left;
+	width: 227px + 50px;
+}
+
+/* Add slant */
+.check-list:after,
+.check-list:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 0;
+	height: 0px;
+}
+
+.check-list:after {
+	right: 0;
+	border-left: 85px solid $white;
+	border-bottom: 110px solid;
+}
+
+.list-items {
+	padding-right: 50px;
+	line-height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

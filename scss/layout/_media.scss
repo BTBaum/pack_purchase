@@ -11,6 +11,10 @@
     flex: none;
   }
 
+  .phone {
+    justify-content: flex-end;
+  }
+
   .header-container,
   .steps {
   	display: flex;
@@ -27,9 +31,6 @@
     width: 28%;
   }
 
-  .steps {
-  		justify-content: space-between;
-  		padding: 65px;
-  	}
+
 
 }

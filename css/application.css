@@ -12,6 +12,9 @@ body {
   .nav {
     flex: none; }
 
+  .phone {
+    justify-content: flex-end; }
+
   .header-container,
   .steps {
     display: flex;
@@ -23,11 +26,7 @@ body {
 
   .header-container aside {
     float: right;
-    width: 28%; }
-
-  .steps {
-    justify-content: space-between;
-    padding: 65px; } }
+    width: 28%; } }
 /* Nav */
 .nav {
   display: flex;
@@ -85,7 +84,7 @@ body {
 	$rr-width:          50%;
 	*/
   position: relative;
-  height: 120px;
+  height: 90px;
   z-index: 1;
   float: left;
   width: 277px; }
@@ -97,12 +96,16 @@ body {
   position: absolute;
   top: 0;
   width: 0;
-  height: 0; }
+  height: 0px; }
 
 .check-list:after {
   right: 0;
-  border-left: 100px solid #FFF;
-  border-bottom: 120px solid #198E19; }
+  border-left: 85px solid #FFF;
+  border-bottom: 110px solid; }
+
+.list-items {
+  padding-right: 50px;
+  line-height: 15px; }
 
 .quote {
   display: flex;
@@ -175,8 +178,14 @@ body {
 .step2,
 .step3 {
   display: flex;
-  justify-content: space-around;
-  flex-direction: column; }
+  flex-direction: column;
+  max-width: 150px; }
+  @media (max-width: 750px) {
+    .step1,
+    .step2,
+    .step3 {
+      padding-left: 90px;
+      justify-content: space-around; } }
 
 .grey {
   color: #B7C2CC; }
@@ -205,6 +214,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  margin-top: 0px;
   z-index: 1;
   text-align: center;
   color: #B7C2CC; }
@@ -214,6 +224,7 @@ body {
   justify-content: space-around;
   flex-direction: row;
   z-index: 1;
+  margin-top: 0;
   text-align: center;
   color: #373737; }
 

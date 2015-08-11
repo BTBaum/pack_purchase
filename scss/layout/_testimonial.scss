@@ -19,6 +19,7 @@
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
+	margin-top: 0px;
 	z-index: 1;
 	text-align: center;
 	color: $grey;	
@@ -29,6 +30,7 @@
 	justify-content: space-around;
 	flex-direction: row;
 	z-index: 1;
+	margin-top: 0;
 	text-align: center;
 	color: $black;	
 }
